@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{  
+    background-color: #282B42;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: #747DC2;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #1b1d2c9d;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px #282b428f;
+}
+
+p{
+    color: #ffffff;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

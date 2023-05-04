@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+            
+        }
+        
+        header{
+            background-color: white;     
+            
+            padding: 10px;
+            margin:10px;
+
+        }
+
+        nav{
+            background-color: darkgrey;
+            padding: 3px;
+            box-shadow: 2px 2px 3px black;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+            
+        }
+        nav > a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px 10px 5px 10px;
+            color: black;
+            
+            
+        }
+
+        article{
+            background-color: lightgrey;
+            padding: 10px;
+            margin:10px;
+            border-radius: 10px;
+        }
+        
+        article > aside{
+            background-color: darkgrey;
+            font-weight: normal;
+            font-style: italic;
+            
+        }
+        
+        footer{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 10px;
+            font-size: larger;
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            background-color: white;
+            color: white;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quaerat suscipit nulla omnis, mollitia autem nobis illo quod in molestiae enim officia obcaecati corrupti consectetur at aliquam iure error sequi?</p>
+                <aside>Artigo Escrito por josé da silva</aside>
+            </article>
+        </section>
+        <section>
+            <article>
+            <h2>Notícia sobre a inglaterra</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis alias cum, illo fuga distinctio quaerat eum qui molestias non pariatur reprehenderit velit explicabo vitae nesciunt, laudantium reiciendis amet in perferendis!</p>
+            <aside>Artigo escrito por Manoel de alguma coisa</aside>
+        </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido pelo Elyan
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
