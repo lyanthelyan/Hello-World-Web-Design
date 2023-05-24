@@ -91,14 +91,22 @@ width: 100%;
     font-weight: bold;
 }
 
-.link>a{
-    color: #285345;
+.link{
     text-decoration: none;
-    background-color: #1aac7b23;
-    padding: 2px;
+    color: var(--cor4);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 1.5s;
 }
-.link>a:hover{
+
+.link:hover{
+    background-color: var(--cor2);
     text-decoration: underline;
+    color: var(--cor5);
+    transition-duration: 1s;
+    border-radius: 20px;
 }
 
 #irina>img{
