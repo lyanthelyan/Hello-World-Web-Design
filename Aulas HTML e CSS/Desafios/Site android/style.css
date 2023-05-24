@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(truetype);
+}
+
+body{
+    background-color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: #194234;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header{
+    background: linear-gradient(to bottom, #4FCEA2, #286852);
+    padding: 20px;
+    box-shadow: 0.1px 0.1px 10px#0002017e;
+    
+
+
+}
+
+header>h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 0.1px 1px black;
+}
+
+header>p{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 0.1px 1px black;
+}
+
+header>nav>a{
+    padding: 5px;
+    text-decoration: none;
+    color: #59eeba;
+    
+}
+
+header>nav>a:hover{
+    background-color: #285345;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 5px;
+}
+
+main{
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    max-width: 1000px;
+    min-width: 300px;
+
+}
+
+
+main>section>h1{
+    font-family: 'idroid', sans-serif;
+    color: #286852;
+    font-weight: normal;
+}
+
+picture>img{
+margin: auto;
+display: block;
+width: 100%;
+}
+
+
+.artigos{
+    background: linear-gradient(to right, #4fcea2b7, #ffffff69);
+    font-family: 'idroid', sans-serif;
+    color: #286852;
+    font-weight: normal;
+}
+
+.destaque{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.link>a{
+    color: #285345;
+    text-decoration: none;
+    background-color: #1aac7b23;
+    padding: 2px;
+}
+.link>a:hover{
+    text-decoration: underline;
+}
+
+#irina>img{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+#bugdroid>img{
+    display: block;
+    margin: auto;
+    max-width: 300;
+    
+}
+
+.lista {
+    padding: 10px;
+    background-color: #4FCEA2;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.lista > ul {
+    columns: 2;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção do vídeo 16:9 */
+    height: 0;
+    overflow: hidden;   
+  }
+  .video-container iframe,  
+  .video-container object,  
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #194234;
+}
+
+.bloco-colorido{
+    background-color: #286852;
+    padding:20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+
+
