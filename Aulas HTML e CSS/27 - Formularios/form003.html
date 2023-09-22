@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forumlário</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    
+    <p>
+        <form action="cadastro.py" method="get" autocomplete="on">
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" placeholder="Nome Completo" autocomplete="name" required>
+    </p>
+    <p>
+        <label for="imedia">Média</label>
+        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" size="10" step="0.5" required>
+    </p>
+    <p>
+        <label for="idate">Data de Nascimento</label>
+        <input type="date" name="date" id="idate" >
+    </p>
+    <p>
+        <label for="iemail"> E-mail: </label>
+        <input type="email" name="email" id="iemail">
+    
+    <p>
+        <label for="itel">Telefone</label>
+        <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}\)\d{4,2}-\d{4}$">
+    </p>
+    </p>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        
+    </p>
+    
+    
+
+    </form>
+</body>
+</html>
