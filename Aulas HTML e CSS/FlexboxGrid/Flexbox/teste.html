@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;           
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .flex-container > .quadrado:first-child {
+            align-self: flex-start;
+        }
+
+        .quadrado{
+            
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste Flex box</h1>
+    <div class="flex-container">
+        <div class="quadrado">
+        </div>
+        
+        <div class="quadrado">
+        </div>
+        
+        <div class="quadrado">
+    </div>
+
+    </div>
+</body>
+</html>

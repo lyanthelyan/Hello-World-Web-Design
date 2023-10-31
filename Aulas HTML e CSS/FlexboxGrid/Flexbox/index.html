@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: grey;
+        }
+
+        .flex-container{
+            background-color: black;
+            display: flex;
+            flex-direction: row; /* Eixo Principal */
+            justify-content:flex-start; /* Eixo Principal*/
+            align-items: flex-start; /*Eixo Transversal */
+            align-content: flex-start;
+            flex-wrap: wrap; /* Quebrar a linha e não faz mais overflow */
+            /* flex-flow: row wrap ( apenas uma forma de escolher o flex direction e flex wrap em apenas uma linha) */    
+            gap: 30px; /* Funciona como o margin so que apenas para os lados, na margem ele empurra*/
+            height: 50vh;
+        }
+
+        .flex-item{
+            background-color: white;
+            padding: 10px;
+            flex-grow: 1; /*Quero que elas crescem como uma proporção igual para colar na tela*/
+            flex-shrink: 1; /*Em vez de crescer esse diminui, contrario do flex grow, padrão é 1*/
+        }
+
+        .flex-item:nth-child(1){
+            background-color: lightgreen;
+            flex-basis: 200px;
+            height: 100px;
+        }
+        
+        .flex-item:nth-child(2){
+            background-color: lightcoral;
+            /* order: 2; */
+        }
+        .flex-item:nth-child(3){
+            background-color: lightblue;
+            /* order: 1; */
+            align-self: flex-end; /* Filho pedindo para alihar ele mesmo*/
+        }
+
+        .flex-item:last-child{
+            flex-grow: 2; /* 2 vezes mais de crescimento*/
+        }
+
+        .flex-container2{
+            width: 100%;
+            height: 300px;
+            background-color: lightblue;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">
+            <h1>Item 1</h1>
+        </div>
+        <div class="flex-item">
+            <h1>Item 2</h1>
+        </div>
+         <div class="flex-item">
+            <h1>Item 3</h1>
+        </div>
+        <div class="flex-item">
+            <h1>Item 4</h1>
+        </div>
+        <div class="flex-item">
+            <h1>Item 5</h1>
+        </div>
+         <div class="flex-item">
+            <h1>Item 6</h1>
+        </div>
+        <div class="flex-item">
+            <h1>Item 7</h1>
+        </div>
+        <div class="flex-item">
+            <h1>Item 8</h1>
+        </div>
+         <div class="flex-item">
+            <h1>Item 9</h1>
+        </div>
+        <div class="flex-item">
+            <h1>Item 10</h1>
+        </div>
+        <div class="flex-item">
+            <h1>Item 11</h1>
+        </div>
+         <div class="flex-item">
+            <h1>Item 12</h1>
+        </div>
+    </div>
+    <div class="flex-container2">
+        <h1>Teste</h1>
+
+    </div>
+</body>
+</html>

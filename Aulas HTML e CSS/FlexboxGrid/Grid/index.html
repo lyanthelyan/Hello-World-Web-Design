@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: sans-serif;
+        }
+
+        .container{
+            /* border: 5px solid black; */
+            /* margin: 10px; */
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column: 1;
+            
+            /* grid-template-columns: minmax(0, 1fr) minmax(200px, 1fr); */
+            /* grid-template-columns: repeat(3,1fr); Mesma coisa que colocar, 1fr 1fr 1fr 1fr 1fr 1fr so que usando o repeat parra ser menor */
+            /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+            /* grid-template-rows: auto 200px 200px; */
+            /* gap: 10px;
+            padding: 5px; 
+            gap: 5px 10px*/
+            /* row-gap: 10px;
+            column-gap: 10px; */
+            /* grid-template-areas: 
+            "i1 i1"
+            "i2 i3"
+            "i4 i4"
+            ; */
+            /* grid-template-columns: 1fr 200px; */
+            /* grid-template-rows: 80pxCabeçalho 1fr Conteudo 50px Footer; */
+
+            /* height: 100vh; */
+            /* width: 100vw; */
+            
+            
+            
+        }
+
+        .item{
+            background: deeppink;
+        }
+        /* }
+        .item-1{
+            grid-area: i1;
+            background-color: lightcoral;
+        }
+
+        .item-2{
+            grid-area: i2;
+            background-color: lightblue;
+        }
+        .item-3{
+            grid-area: i3;
+            background-color: lightgreen;
+        }
+        .item-4{
+            grid-area: i4;
+            background-color: lightslategray;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item-1">item 1</div>
+        <div class="item item-2">item 2</div>
+        <div class="item item-3">item 3</div>
+        <div class="item item-4">item 4</div>
+        <!-- <div class="item item-5">item 5</div>
+        <div class="item item-6">item 6</div>
+        <div class="item item-7">item 7</div>
+        <div class="item item-8">item 8</div>
+        <div class="item item-9">item 9</div>
+        <div class="item item-10">item 10</div>
+        <div class="item item-11">item 11</div>
+        <div class="item item-12">item 12</div> -->
+    </div>
+</body>
+</html>

@@ -11,26 +11,41 @@
         table{
             width: 500px;
             border-collapse:collapse;
+            
         }
+        
+        
+        tbody > tr:nth-child(2n+1){
+            background-color: lightgray;
+            
+        }
+        
         td{
             border: 1px solid black;
             padding: 10px;
         }
+        
         th{
-            border: 1px solid black;
+            border: 1px solid rgb(0, 0, 0);
             padding: 15px;
+            border: 1px solid black;
         }
         
         thead{
             background-color: rgb(94, 94, 94);
             color: white;
             text-shadow: 1px 1px 1px black;
+            
+            
+            
         }
 
         thead > tr > th{
             position: sticky;
             top: 0;
             background-color: rgb(94, 94, 94);
+            
+            
         }
         
         .num{

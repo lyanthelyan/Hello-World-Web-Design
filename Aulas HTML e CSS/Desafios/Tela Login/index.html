@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!-- Imagem nas css -->
+            </div>
+            
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as confiurações no seu ambiente</p>
+                <form action="#" method="post" autocomplete="on">
+                    <div class="campo">     
+                        <label for="ilogin" ><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="login" id="ilogin" required placeholder=" Seu e-mail..." autocomplete="email" maxlength="30">
+                        
+                    </div>
+                    <div class="campo">
+                        <label for="isenha"><span class="material-symbols-outlined">lock</span></label>
+                        <input type="password" name="senha" id="isenha" placeholder=" Senha..." required autocomplete="current-password" minlength="8" maxlength="20">
+                        
+                    </div>
+                        <div>
+                            <button type="submit" id="entrar">Entrar</button>
+                            <a href="esqueci.html" id="esqueci">Esqueci a senha<span class="material-symbols-outlined">mail</span></a>
+                        </div>
+
+
+                </form>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
