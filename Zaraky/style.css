@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url(fonte/Poppins/Poppins-Light.ttf);
+    
+}
+
+body{
+    font-family: 'poppins-light';
+    background-color: white;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 20px rgba(0, 0, 0, 0.171)
+}
+
+header>h1{
+    color: black;
+    margin-left: 50px;
+}
+
+menu{
+    font-size: 1.3em;
+}
+
+menu > a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+menu>a:hover{
+    text-decoration: underline;
+    text-decoration-color: cadetblue;
+    
+}
+
+.cor-verde {
+    color: cadetblue;
+}
+
+
+
+
+
+#zaraky{
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 10% 85% 10% 100%;
+}
+
+
+
+.main-container{
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+    background-color: cadetblue;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px  rgba(70, 116, 117, 0.445);
+}
+
+.contact:hover{
+    background-color: rgb(130, 216, 219);
+}
