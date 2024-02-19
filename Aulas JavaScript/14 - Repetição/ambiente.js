@@ -5,6 +5,6 @@
 // }
 
 
-for(var c=1; c<=5; c+=1){
+for(var c=1; c<=5; c+=2){
     console.log(c)
 }
